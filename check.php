@@ -3,7 +3,7 @@
 include 'db_connect.php';
 
     if(isset($_POST["backId"]))
-    {
+    {    
         $query = "SELECT * FROM course";
         $result= $db->query($query);
         $res1=$result->fetch_assoc();
